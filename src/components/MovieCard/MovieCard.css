@@ -1,0 +1,27 @@
+.movie-card-cont{
+    
+    height: 300px;
+    width: 200px;
+    border: 1px solid gold;
+/* transition: 0.5; */
+    
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.movie-card-cont:hover{
+box-shadow: 1px 1px 15px 2px #b9b9b9;
+zoom: 101%;
+}
+.movie-card-outer-cont{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+
+.movie-card-cont > img{
+height: 100%;
+width: 100%;
+
+}
